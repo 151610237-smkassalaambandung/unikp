@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PulauTerunik</string>
+    <string name="daftarpulau">Daftar Pulau</string>
+    <string name="profile">Profile</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pulau_mata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bb"
+    tools:context="pulau.com.pulauterunik.PulauMata">
+
+    <RelativeLayout
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/button"
+            android:background="@drawable/back"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="      Percayakah anda jika pulau yang satu ini memiliki bentuk yang sangat aneh dan memiliki keindahan yang menakjubkan, karena pulau ini memiliki bentuk pulau yang mirip dengan bola mata manusia. Jika dilihat dari udara, maka pulau ini akan tampak sangat jelas terlihat seperti bola mata yang lengkap dengan retina dan juga iris matanya. Jika anda tidak percaya, maka anda dapat lengsung mengunjungi pulau ini dan harus disaksikan diatas permukaan bumi."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#080808"
+            android:background="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/mata"
+            android:id="@+id/imageView2"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Pulau Berbentuk Bola Mata"
+            android:textSize="20dp"
+            android:textColor="#080808"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp" />
+
+    </RelativeLayout>
+</ScrollView>
